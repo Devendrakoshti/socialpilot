@@ -1,0 +1,594 @@
+@media screen and (max-width:1920px)  {
+
+    /* Users Details Media [Start] */
+
+    .users-details::after {
+        left: 140px;
+    }
+
+    .users-details::before {
+        right: 140px;
+    }
+
+    /* Users Details Media [End] */
+
+    /* Limited Sale Section Media [Start] */
+
+    .limited-sale-left {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .limited-sale-right {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Limited Sale Section Media [End] */
+
+}
+
+@media screen and (max-width:1399px)  {
+
+    /* Banner Section Media [Start] */
+
+    .banner-form::after {
+        display: none;
+    }
+
+    .main-banner-right {
+        display: flex;
+        justify-content: end;
+    }
+
+    /* Banner Section Media [End] */
+
+
+}
+
+@media screen and (max-width:1200px)  {
+
+    /* Banner Section Media [Start] */
+
+    .main-banner {
+        padding-bottom: 100px;
+    }
+
+    .main-banner::after {
+        display: none;
+    }
+    
+    .main-banner::before {
+        display: none;
+    }
+    
+    .main-banner-wrap {
+        padding-top: 80px;
+    } 
+
+    .banner-content h1 {
+        font-size: 50px;
+        line-height: 62px;
+        margin-bottom: 40px;
+    }
+
+    .banner-off-image {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .banner-content>p {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .main-banner_bg-bottom {
+        height: auto;
+        bottom: -1px;
+    }
+
+    /* Banner Section Media [End] */
+
+    /* Social Media Section Media [Start] */
+
+    .social-media-section::before {
+        display: none;
+    }
+
+    .social-media-section::after {
+        display: none;
+    }
+
+    /* Social Media Section Media [End] */
+
+    /* Users Details Media [Start] */
+
+    .users-details::after {
+        left: 15px;
+    }
+
+    .users-details::before {
+        right: 15px;
+    }
+
+    /* Users Details Media [End] */
+
+    /* Limited Sale Section Media [Start] */
+
+    .limited-sale-left {
+        width: 100%;
+        max-width: 230px;
+    }
+
+    .limited-sale-right {
+        width: 100%;
+        max-width: 230px;
+    }
+
+    /* Limited Sale Section Media [End] */
+
+}
+
+@media screen and (max-width:1024px)  {
+
+    /* Banner Section Media [Start] */
+
+    .form-inner {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    /* Banner Section Media [End] */
+
+    /* Special Sale Section Media [Start] */
+
+    .special-sales-section {
+        padding: 50px 0;
+    }
+
+    /* Special Sale Section Media [End] */
+    
+    /* Social Media Section Media [Start] */
+    
+    .social-media-section {
+        padding: 50px 0;
+    }
+    
+    /* Social Media Section Media [End] */
+    
+    /* Users Details Media [Start] */
+    
+    .users-details {
+        padding: 50px 0;
+    }
+    
+    .users-details::after {
+        display: none;
+    }
+    
+    .users-details::before {
+        display: none;
+    }
+    
+    /* Users Details Media [End] */
+    
+    /* Frequently Questions Media [Start] */
+    
+    .frequently-questions {
+        padding: 50px 0;
+    }
+    
+    /* Frequently Questions Media [End] */
+    
+    /* Limited Sale Section Media [Start] */
+    
+    .limited-sale-section-wrap {
+        padding: 70px 0;
+    }
+
+    .limited-sale-left {
+        display: none;
+    }
+
+    .limited-sale-right {
+        display: none;
+    }
+
+    /* Limited Sale Section Media [End] */
+    
+    /* Footer Media [Start] */
+
+    .copyright p {
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center;
+    }
+
+    .terms-service ul li a {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    /* Footer Media [End] */
+    
+}
+
+
+@media screen and (max-width:992px)  {
+
+    /* Banner Section Media [Start] */
+
+    .main-banner-left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .main-banner-right {
+        width: 100%;
+    }
+
+    .banner-form {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .form-inner {
+        flex-direction: row;
+    }
+
+    /* Banner Section Media [End] */
+
+    /* Special Sale Section Media [Start] */
+
+    .special-plan-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        row-gap: 24px;
+    }
+
+    .chack-list {
+        width: 70%;
+        flex-wrap: wrap;
+        row-gap: 24px;
+        margin: 0 auto;
+    }
+
+    .chack-list > li {
+        width: calc(50% - 35px);
+        justify-content: flex-start;
+    }
+
+    /* Special Sale Section Media [End] */
+    
+    /* Social Media Section Media [Start] */
+    
+    .social-tabs ul {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 24px;
+    }
+
+    .social-media-wrap {
+        justify-content: center;
+    } 
+
+    .social-media-left {
+        width: 70%;
+    }
+
+    .social-media-right {
+        justify-content: center;
+    }
+    
+    /* Social Media Section Media [End] */
+
+    /* Users Details Media [Start] */
+        
+    .users-details-top {
+        padding: 0 15px;
+    }
+
+    /* Users Details Media [End] */
+
+    /* Limited Sale Section Media [Start] */
+    
+    .plan-benefit {
+        width: 70%;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    
+    .plan-type {
+        width: calc(50% - 24px);
+    }
+
+    /* Limited Sale Section Media [End] */
+    
+}
+
+@media screen and (max-width:767px)  {
+
+    /* Banner Section Media [Start] */
+
+    .main-banner-wrap {
+        padding-top: 60px;
+    }
+
+    .banner-time-inner {
+        margin-bottom: 20px;
+    }
+
+    .banner-time-inner p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .banner-content h1 {
+        font-size: 44px;
+        line-height: 54px;
+        margin-bottom: 30px;
+    }
+
+    .banner-off-image {
+        width: 100%;
+        max-width: 400px;
+    } 
+
+    .form-inner {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    /* Banner Section Media [End] */
+
+    /* Special Sale Section Media [Start] */
+
+    .special-sales-heading {
+        margin-bottom: 30px;
+    }
+
+    .special-sales-heading h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .chack-list {
+        width: 100%;
+    }
+
+    .special-plan-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Special Sale Section Media [End] */
+    
+    /* Social Media Section Media [Start] */
+    
+    .social-media-heading {
+        margin-bottom: 40px;
+    }
+
+    .social-tabs ul {
+        grid-template-columns: 1fr;
+        row-gap: 24px;
+    }
+
+    /* Social Media Section Media [End] */
+
+    /* Users Details Media [Start] */
+        
+    .users-details-card {
+        margin-left: 0;
+    }
+
+    .users-details-card-wrap {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .user-image {
+        border-radius: 16px 16px 0 0;
+        overflow: hidden;
+    }
+
+    /* Users Details Media [End] */
+
+    /* Frequently Questions Media [Start] */
+
+    .frequently-questions-title {
+        margin-bottom: 30px;
+    }
+
+    .frequently-questions-title h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    
+    /* Frequently Questions Media [End] */
+    
+    
+    /* Limited Sale Section Media [Start] */
+
+    .limited-sale-section-wrap {
+        padding: 50px 0;
+    }
+
+    .limited-sale-content-top {
+        margin-bottom: 30px;
+    } 
+
+    .limited-sale-content-title h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .limited-sale-content-sub-title p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .limited-sale-content-middle {
+        margin-bottom: 42px;
+    }
+    
+    .plan-benefit {
+        width: 80%;
+    }
+
+    /* Limited Sale Section Media [End] */
+    
+}
+
+@media screen and (max-width:576px)  {
+
+    /* Header Media [Start] */
+
+    .header-logo {
+        width: 100%;
+        max-width: 110px;
+    }
+
+    .header-botton {
+        column-gap: 5px;
+    }
+
+    .default-btn.small-btn {
+        padding: 2px 6px;
+        font-size: 9px;
+    }
+
+    /* Header Media [End] */
+
+    /* Banner Section Media [Start] */
+
+    .banner-content h1 {
+        font-size: 32px;
+        line-height: 44px;
+        margin-bottom: 20px;
+    }
+
+    .banner-off-image {
+        width: 100%;
+        max-width: 290px;
+    }
+
+    .banner-content > p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .banner-form {
+        padding: 20px;
+    }
+    
+    .banner-form .form-heading {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    } 
+
+    /* Banner Section Media [End] */
+
+    /* Special Sale Section Media [Start] */
+
+    .special-sales-heading h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .chack-list > li {
+        width: 100%;
+    }
+
+    .special-tabs-inner {
+        row-gap: 30px;
+    }
+
+    /* Special Sale Section Media [End] */
+    
+    /* Social Media Section Media [Start] */
+    
+    .social-media-heading>h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .social-media-left {
+        width: 100%;
+    }
+
+    .social-media-right {
+        width: 100%;
+    }
+
+    /* Social Media Section Media [End] */
+
+    /* Users Details Media [Start] */
+    
+    .users-details-top {
+        margin-bottom: 40px;
+    }
+    
+    .users-details-title h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .slick-dots {
+        margin-top: 30px;
+    } 
+
+
+    /* Users Details Media [End] */
+
+    /* Frequently Questions Media [Start] */
+
+    .frequently-questions-title h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    
+    .plan-benefit {
+        gap: 15px;
+    }
+
+    /* Frequently Questions Media [End] */
+    
+    
+    /* Limited Sale Section Media [Start] */
+
+    .plan-benefit {
+        width: 100%;
+    }
+
+    .plan-type {
+        width: 100%;
+    }
+
+    .btn-lg {
+        width: 100%;
+        padding: 18px 20px;
+    }
+
+    /* Limited Sale Section Media [End] */
+
+    /* Footer Media [Start] */
+    
+    .terms-service {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .terms-service ul {
+        column-gap: 15px;
+    }
+
+    .terms-service ul li {
+        margin-left: 0px;
+        padding-left: 0px;
+        border-left: none;
+    }
+
+    /* Footer Media [End] */
+
+}
